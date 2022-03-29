@@ -20,7 +20,9 @@ void HouseExample()
     myHouse.DoorOpenClose();
 }
 
-// This is for C# Intro Lab Exercise
+/* This is my function 
+ for C# Intro Lab Exercise
+*/
 
 void MyLocalFunction()
 {
