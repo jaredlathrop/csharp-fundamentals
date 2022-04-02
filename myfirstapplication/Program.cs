@@ -5,7 +5,7 @@ Console.WriteLine("Hello, World!");
 
 // The below statements calls the function
 // single line comment
-HouseExample();
+// HouseExample();
 
 /*
  Multi line comment
@@ -14,6 +14,11 @@ inside of members and are private by default. this mens that they are
 specific to that member and can only be called inside
 that member.
 */
+
+// Lesson Examples
+Lessson1Example();
+
+
 void HouseExample()
 {
     House myHouse = new House();
@@ -33,4 +38,16 @@ void MyLocalFunction()
 }
 
 MyLocalFunction();
+
+// Lesson one value types
+
+
+void Lessson1Example()
+{
+    Lesson1 myLesson = new Lesson1();
+    myLesson.IntMinMax();
+    myLesson.IntergralExample();
+    myLesson.ConvertFloatToInt();
+    myLesson.LongFromInt();
+}
 
