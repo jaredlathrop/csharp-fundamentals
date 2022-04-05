@@ -16,8 +16,12 @@ that member.
 */
 
 // Lesson Examples
-Lessson1Example();
-Exercise1output();
+// Lessson1Example();
+// Exercise1output();
+Lesson2Example();
+
+
+
 
 // void HouseExample()
 // {
@@ -37,7 +41,7 @@ void MyLocalFunction()
     Console.WriteLine("I am learning new stuff everyday");
 }
 
-MyLocalFunction();
+// MyLocalFunction();
 
 // Lesson one value types
 
@@ -59,4 +63,19 @@ void Exercise1output()
     myExercise.Problem2(15, 17, 5);
     myExercise.Problem3(15.55D, 19.9999F, 98765432L);
     myExercise.Problem4();
+}
+
+// Lesson 2 Strings
+void Lesson2Example()
+{
+    Lesson2 myLesson2 = new Lesson2();
+    myLesson2.MyTrimEx();
+    int able = myLesson2.MyStringLength();
+    Console.WriteLine(able);
+    myLesson2.MyEqualsEx("Dog");
+    myLesson2.MyExChar();
+    Console.WriteLine(myLesson2.myEscapeEx());
+    myLesson2.MyJoinesStrings("CSharp", "rules");
+    Console.WriteLine(myLesson2.MyInterpolationExample("pizza", 3));
+    myLesson2.MyOtherInterpolation();
 }
