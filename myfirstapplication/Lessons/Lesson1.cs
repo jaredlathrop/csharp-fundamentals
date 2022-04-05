@@ -153,10 +153,10 @@ internal class Lesson1
     }
 
     // Scientific Notation
-    double alpha = 6.26E-22;
+    // double alpha = 6.26E-22;
 
     // Underscores
-    long beta = 1_834_432L;
+    // long beta = 1_834_432L;    
 
     /*
      Numberic Conversions

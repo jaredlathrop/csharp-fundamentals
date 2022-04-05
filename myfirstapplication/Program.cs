@@ -17,13 +17,13 @@ that member.
 
 // Lesson Examples
 Lessson1Example();
+Exercise1output();
 
-
-void HouseExample()
-{
-    House myHouse = new House();
-    myHouse.DoorOpenClose();
-}
+// void HouseExample()
+// {
+    // House myHouse = new House();
+    // myHouse.DoorOpenClose();
+// }
 
 /* This is my function 
  for C# Intro Lab Exercise
@@ -51,3 +51,12 @@ void Lessson1Example()
     myLesson.LongFromInt();
 }
 
+
+void Exercise1output()
+{
+    Exercise1 myExercise = new Exercise1();
+    myExercise.Problem1();
+    myExercise.Problem2(15, 17, 5);
+    myExercise.Problem3(15.55D, 19.9999F, 98765432L);
+    myExercise.Problem4();
+}
