@@ -18,8 +18,8 @@ that member.
 // Lesson Examples
 // Lessson1Example();
 // Exercise1output();
-Lesson2Example();
-
+// Lesson2Example();
+Exercise2output();
 
 
 
@@ -78,4 +78,13 @@ void Lesson2Example()
     myLesson2.MyJoinesStrings("CSharp", "rules");
     Console.WriteLine(myLesson2.MyInterpolationExample("pizza", 3));
     myLesson2.MyOtherInterpolation();
+}
+
+void Exercise2output()
+{
+    Exercise2 myExercise2 = new Exercise2();
+    myExercise2.Problem1("EXERCISE two Lab");
+    myExercise2.Problem2();
+    myExercise2.Problem3();
+    Console.WriteLine(myExercise2.Problem4());
 }
