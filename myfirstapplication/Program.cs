@@ -20,8 +20,9 @@ that member.
 // Exercise1output();
 // Lesson2Example();
 // Exercise2output();
-Lesson3Example();
+// Lesson3Example();
 // BottlesOfBeerSong();
+ExerciseThreeOutput();
 
 
 
@@ -109,4 +110,13 @@ void BottlesOfBeerSong()
 {
     BottlesOfBeer myBottlesOfBeer = new BottlesOfBeer();
     myBottlesOfBeer.LetaSing();
+}
+
+void ExerciseThreeOutput()
+{
+    Exercise3 myExercie3 = new Exercise3();
+    myExercie3.Question1(5);
+    myExercie3.Question2();
+    myExercie3.Question3(10, 5);
+    myExercie3.Question4(false, true);
 }
