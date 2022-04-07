@@ -19,7 +19,9 @@ that member.
 // Lessson1Example();
 // Exercise1output();
 // Lesson2Example();
-Exercise2output();
+// Exercise2output();
+Lesson3Example();
+// BottlesOfBeerSong();
 
 
 
@@ -87,4 +89,24 @@ void Exercise2output()
     myExercise2.Problem2();
     myExercise2.Problem3();
     Console.WriteLine(myExercise2.Problem4());
+}
+
+void Lesson3Example()
+{
+    Lesson3 myLesson3 = new Lesson3();
+    // myLesson3.BasicCheckOperator(14);
+    // myLesson3.BasicCheckedEx2();
+    // myLesson3.BasicUncheckedExample();
+    // myLesson3.BasicMath();
+    // myLesson3.BasicModulus(783);
+    // myLesson3.BasicBoolean(true, false);
+    // myLesson3.BasicCompoundExample(10, 20, 30);
+    // myLesson3.BasicRelationalExample("Tom", "Tom");
+    myLesson3.BasicIncrementDecrement();
+}
+
+void BottlesOfBeerSong()
+{
+    BottlesOfBeer myBottlesOfBeer = new BottlesOfBeer();
+    myBottlesOfBeer.LetaSing();
 }
