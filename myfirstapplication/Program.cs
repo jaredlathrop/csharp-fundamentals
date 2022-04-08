@@ -22,7 +22,8 @@ that member.
 // Exercise2output();
 // Lesson3Example();
 // BottlesOfBeerSong();
-ExerciseThreeOutput();
+// ExerciseThreeOutput();
+LessonFourOutput();
 
 
 
@@ -119,4 +120,19 @@ void ExerciseThreeOutput()
     myExercie3.Question2();
     myExercie3.Question3(10, 5);
     myExercie3.Question4(false, true);
+}
+
+void LessonFourOutput()
+{
+    Lesson4 myLesson4 = new Lesson4();
+    myLesson4.BasicIfElse(12);
+    myLesson4.BasicIfElseChain(10);
+    myLesson4.BasicAndOrCondition(18, 28);
+    Console.WriteLine(myLesson4.BasicTernaryEx(25));
+    myLesson4.BasicSwitchEx(3);
+    myLesson4.BasicWhileEx();
+    myLesson4.BasicDoEx();
+    myLesson4.BasicForStatement();
+    myLesson4.BasicForEachEx();
+    myLesson4.BasicJumpStatement();
 }
