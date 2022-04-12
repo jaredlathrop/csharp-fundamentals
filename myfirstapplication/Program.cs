@@ -1,7 +1,7 @@
 ﻿using myfirstapplication;
 
 // See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+// Console.WriteLine("Hello, World!");
 
 // The below statements calls the function
 // single line comment
@@ -24,7 +24,8 @@ that member.
 // BottlesOfBeerSong();
 // ExerciseThreeOutput();
 // LessonFourOutput();
-Exercise4Output();
+// Exercise4Output();
+Lesson5Output();
 
 
 // void HouseExample()
@@ -144,3 +145,30 @@ void Exercise4Output()
     myExercise4.Problem2("A");
     myExercise4.Problem3();
 }
+
+void Lesson5Output()
+{
+    Lesson5 myLesson5 = new Lesson5();
+    myLesson5.IsOperatorEx(15);
+    Lesson5.Del handler = myLesson5.DelegateMethod;
+    handler("Hello CSharp");
+
+
+    // func delegate
+    Func<int, int> add = myLesson5.Sum;
+    Console.WriteLine($"func delegate example = {add(23)}");
+
+    // Lamda expression
+    myLesson5.LamdaSquare();
+    myLesson5.LamdaGreeting();
+
+    // Switch expression
+    Console.WriteLine(myLesson5.FavoriteColor("red"));
+    myLesson5.DrinkSize(32);
+
+
+    // Logical patterns
+    myLesson5.NumberChoice(2);
+    myLesson5.TemperatureGuide(45);
+}
+
