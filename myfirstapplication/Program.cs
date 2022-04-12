@@ -23,8 +23,8 @@ that member.
 // Lesson3Example();
 // BottlesOfBeerSong();
 // ExerciseThreeOutput();
-LessonFourOutput();
-
+// LessonFourOutput();
+Exercise4Output();
 
 
 // void HouseExample()
@@ -135,4 +135,12 @@ void LessonFourOutput()
     myLesson4.BasicForStatement();
     myLesson4.BasicForEachEx();
     myLesson4.BasicJumpStatement();
+}
+
+void Exercise4Output()
+{
+    Exercise4 myExercise4 = new Exercise4();
+    myExercise4.Problem1("cat", "cat");
+    myExercise4.Problem2("A");
+    myExercise4.Problem3();
 }
