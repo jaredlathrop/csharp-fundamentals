@@ -25,7 +25,8 @@ that member.
 // ExerciseThreeOutput();
 // LessonFourOutput();
 // Exercise4Output();
-Lesson5Output();
+// Lesson5Output();
+Exercise5output();
 
 
 // void HouseExample()
@@ -172,3 +173,9 @@ void Lesson5Output()
     myLesson5.TemperatureGuide(45);
 }
 
+void Exercise5output()
+{
+    Exercise5 myExercise5 = new Exercise5();
+    Console.WriteLine(myExercise5.Problem2("A"));
+    myExercise5.Problem3(5);
+}
