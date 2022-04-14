@@ -18,16 +18,44 @@ that member.
 // Lesson Examples
 // Lessson1Example();
 // Exercise1output();
-// Lesson2Example();
-// Exercise2output();
+// Lessycise2output();
 // Lesson3Example();
 // BottlesOfBeerSong();
 // ExerciseThreeOutput();
 // LessonFourOutput();
 // Exercise4Output();
 // Lesson5Output();
-Exercise5output();
+// Exercise5output();
+Lesson6output();
 
+void Lesson6output()
+{
+    // default constructor
+    Lesson6 myLesson6 = new Lesson6();
+    Lesson6.TryOn theHat = myLesson6.TryOnHat;
+    theHat($"I tried on a {myLesson6.HatType} hat that was size {myLesson6.HatSize}");
+
+    //constructor with parameter
+    Lesson6 myOther6 = new Lesson6(24);
+
+    // constructor with 2 parameters
+    Lesson6 myHats = new Lesson6("Cowboy", 7);
+    Console.WriteLine(myHats.HatSize); // getting value
+    myHats.HatSize = 6; // setting value
+
+    // method parameter modifiers
+    int able = 33, beta = 22, charlie;
+    myLesson6.InExample(able);
+    myLesson6.RefExample(ref beta);
+    myLesson6.OutExample(out charlie);
+    Console.WriteLine($"out using variable charlie - {charlie}");
+
+    // Multi-cast Delegate
+    Lesson6.TryOn theNewHat, hangTheHat, multiHat;
+    theNewHat = myLesson6.TryOnHat;
+    hangTheHat = myLesson6.HangUpHate;
+    multiHat = hangTheHat + theNewHat;
+}
 
 // void HouseExample()
 // {

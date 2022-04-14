@@ -146,7 +146,7 @@ internal class Lesson4
         int fox = 0; // initializtion
         while(fox < 10)
         {
-            Console.WriteLine($"Number = {fox}");
+            Console.WriteLine($"Number {fox}");
             fox++; // increment
         }
     } // end method
