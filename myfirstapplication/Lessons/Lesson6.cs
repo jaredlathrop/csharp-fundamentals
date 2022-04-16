@@ -129,5 +129,10 @@ internal class Lesson6
         anotherHat($"I tried on a {type} hat at size {++oldSize}");
     }
 
+    public void HangUpHate(string message)
+    {
+        Console.WriteLine($"HangUpHat = {message}");
+    }
+
 }// end class
 

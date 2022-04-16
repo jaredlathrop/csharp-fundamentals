@@ -26,7 +26,28 @@ that member.
 // Exercise4Output();
 // Lesson5Output();
 // Exercise5output();
-Lesson6output();
+// Lesson6output();
+Lesson7Example();
+
+void Lesson7Example()
+{
+    Location myLocation = new Location(34.5, 47.8);
+    Console.WriteLine(myLocation.Latitude);
+    Console.WriteLine(myLocation);
+
+    // Readonly struct
+    Student myStudent = new Student(10, "Jared");
+    Console.WriteLine(myStudent);
+    Console.WriteLine(myStudent.StudentName);
+
+    Person person = new Person("Nancy", "Drew");
+    Console.WriteLine(person);
+    Console.WriteLine(person.lastname);
+
+    Resolution res = new Resolution(1800, 1920);
+    res.CalculateRate();
+    Console.WriteLine(res);
+}
 
 void Lesson6output()
 {
