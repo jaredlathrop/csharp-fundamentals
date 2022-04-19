@@ -27,7 +27,22 @@ that member.
 // Lesson5Output();
 // Exercise5output();
 // Lesson6output();
-Lesson7Example();
+// Lesson7Example();
+Lesson8Example();
+
+
+void Lesson8Example()
+{
+    Lesson8 myLesson8 = new Lesson8(3);
+    Console.WriteLine(Lesson8.DaysPerMonth);
+    Console.WriteLine(Lesson8Static.CelsiustoFaren(30.1));
+    Lesson8.DayCount = 10;
+    myLesson8.CalcHours();
+    Lesson8.CalculateDayCount();
+    myLesson8.CalcHoursV2();
+
+}
+
 
 void Lesson7Example()
 {
