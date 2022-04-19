@@ -29,10 +29,20 @@ that member.
 // Lesson6output();
 // Lesson7Example();
 // Lesson8Example();
-Exercise8Out();
+// Exercise8Out();
+Lesson9Ex();
 
 
+void Lesson9Ex()
+{
+    Lesson9 myLesson9 = new Lesson9();
+    Lesson9.Nested nested = new Lesson9.Nested(myLesson9);
 
+    // access modifiers
+    myLesson9.SampleInternal();
+    myLesson9.SampleProtectedInternal();
+ 
+}
 
 void Exercise8Out()
 {
