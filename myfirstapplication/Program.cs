@@ -30,7 +30,54 @@ that member.
 // Lesson7Example();
 // Lesson8Example();
 // Exercise8Out();
-Lesson9Ex();
+// Lesson9Ex();
+// Lesson10Ex();
+HouseUpdate();
+
+void HouseUpdate()
+{
+    // Calling default
+    House myHouse = new House();
+    Console.WriteLine(myHouse.RoofType);
+    myHouse.DoorOpenClose();
+
+    // Calling constructor with 2 parameters
+    House mySecond = new House("straw", "bamboo");
+    Console.WriteLine(mySecond.WindowSize);
+    mySecond.DoorOpenClose();
+
+    House myThird = new House("dirt", "plastic", "green", 40);
+    Console.WriteLine(myThird.Foundation);
+    myThird.DoorOpenClose();
+}
+
+void Lesson10Ex()
+{
+    Lesson10 myLesson10 = new Lesson10();
+
+    // Using this to call another constructor
+    Console.WriteLine(myLesson10.FirstName);
+
+    // Normal Property
+    myLesson10.FirstName = "Paul";
+    Console.WriteLine(myLesson10.FirstName);
+
+    // Calling auto-property
+    Console.WriteLine(myLesson10.Id);
+    myLesson10.Id = 1500;
+    Console.WriteLine(myLesson10.Id);
+
+    // Expression body property
+    myLesson10.Address = "123 Main st.";
+    Console.WriteLine(myLesson10.Address);
+
+    // Second Constructor
+    Lesson10 myOther10 = new Lesson10("Ben", "Franklin", 67037);
+    Console.WriteLine(myOther10.ZipCode);
+
+
+
+}
 
 
 void Lesson9Ex()
