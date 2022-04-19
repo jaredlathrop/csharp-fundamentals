@@ -32,7 +32,36 @@ that member.
 // Exercise8Out();
 // Lesson9Ex();
 // Lesson10Ex();
-HouseUpdate();
+// ouseUpdate();
+// HorseOutput();
+// BoatOutput();
+Lesson11Out();
+
+
+void Lesson11Out()
+{
+    Square square = new Square();
+    double total = square.CalcInteriorAngle();
+    Console.WriteLine(total);
+
+    Triangle triangle = new Triangle();
+    double total2 = triangle.CalcInteriorAngle();
+    Console.WriteLine(total2);
+}
+
+void BoatOutput()
+{
+    Boats myBoat = new Boats();
+    Console.WriteLine(myBoat.woodType);
+    myBoat.SailRaise();
+}
+
+void HorseOutput()
+{
+    Horse myHorse = new Horse();
+    Console.WriteLine(myHorse.HorseGender);
+    myHorse.HorseTrot();
+}
 
 void HouseUpdate()
 {
