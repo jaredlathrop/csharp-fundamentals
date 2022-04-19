@@ -28,8 +28,18 @@ that member.
 // Exercise5output();
 // Lesson6output();
 // Lesson7Example();
-Lesson8Example();
+// Lesson8Example();
+Exercise8Out();
 
+
+
+
+void Exercise8Out()
+{
+    Exercise8 myExercise8 = new Exercise8();
+    myExercise8.FeetToInches(3);
+    Exercise8.LengthXWidth(4, 5);
+}
 
 void Lesson8Example()
 {
