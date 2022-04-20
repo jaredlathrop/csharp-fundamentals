@@ -55,10 +55,27 @@ internal class Boats
         : this("V-Shape", "Oak Wood") { }
 
     // method
-    public void SailRaise()
+    // adding virutal for exericse 12
+    public virtual void SailRaise()
     {
-        Console.WriteLine($"The {woodType} boat with a {hullShape} hull has raised" +
+        Console.WriteLine($"The hull has raised" +
             $"it's sails");       
     }
+
+    /*
+     EXERCISE 12 PROBLEM 3. InyourBoatclass, add the virtualkeyword to your method created in Lesson 10.
+    Create a second versionof the same method and add a parameter. Include a
+    Console WriteLine method in the new method that uses the parameter.
+    This parameter needs to be based on one of your properties.
+     */
+
+    // making overriden method with 1 parameters
+    public void SailRaise(string woodType)
+    {
+        // the console.writeline
+        Console.WriteLine($"The {woodType} wood boat has raised it's sails.");
+    }
+
+
 
 } // end class

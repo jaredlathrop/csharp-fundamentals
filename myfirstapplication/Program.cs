@@ -33,10 +33,10 @@ that member.
 // Lesson9Ex();
 // Lesson10Ex();
 // ouseUpdate();
-// HorseOutput();
-// BoatOutput();
+HorseOutput();
+BoatOutput();
 // Lesson11Out();
-Lesson12Out();
+// Lesson12Out();
 
 
 void Lesson12Out()
@@ -68,7 +68,7 @@ void BoatOutput()
 {
     Boats myBoat = new Boats();
     Console.WriteLine(myBoat.woodType);
-    myBoat.SailRaise();
+    myBoat.SailRaise("oak");
 }
 
 void HorseOutput()
@@ -76,6 +76,10 @@ void HorseOutput()
     Horse myHorse = new Horse();
     Console.WriteLine(myHorse.HorseGender);
     myHorse.HorseTrot();
+    myHorse.HorseTrot("white");
+
+    Colt myColt = new Colt();
+    myColt.HorseTrot();
 }
 
 void HouseUpdate()

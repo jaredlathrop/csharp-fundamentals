@@ -10,9 +10,10 @@ internal class OldBoat : Boats
     }
 
     // 1st construcor
-    public OldBoat(string shape, string wood, int length, int age)
+    public OldBoat(string shape, string wood, int size, int age)
     {
         Age = age;
+
     }
 
     //2nd Constructor
@@ -21,7 +22,16 @@ internal class OldBoat : Boats
 
     //third Constructor
     public OldBoat()
-        :this("Round", "Maple", 250) { }
+        :this("Round", "Maple", 50) { }
 
+    
+    /* EXERCISE 12 PROBLEM 4 In your child class of Boat, using the overridekeyword create a method
+    that has the same name as the virtual method from Boat. Add a Console
+    WriteLine that provides a different message from the Boat.
+    */
 
+    /* public override void SailRaise()
+    { 
+        Console.WriteLine("The old boat has raised it's tattered sails");
+    } */
 }

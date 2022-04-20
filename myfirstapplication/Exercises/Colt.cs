@@ -34,5 +34,15 @@ internal class Colt : Horse
     public Colt()
         :this("White", "Male", 200) { }
 
+    /*
+    EXERCISE 12 PROBLEM 2. In your child class of Horse, using the overridekeyword create a method
+    that has the same name as the virtual method from Horse. Add a Console
+    WriteLine that provides a different message from the Horse
+     */
 
+    // using override keyword to provide a different message using HorseTrot()
+    public override void HorseTrot()
+    {
+        Console.WriteLine("The colt is trotting.");
+    }
 }

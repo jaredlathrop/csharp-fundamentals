@@ -35,8 +35,27 @@ internal class Horse
         :this("Black", "Female") { }
 
     // method
-    public void HorseTrot()
+    // Adding virtual for exerice 12.
+    public virtual void HorseTrot()
     {
         Console.WriteLine($"My {HorseGender} horse is trotting");
     }
-}
+
+
+    /* EXERCISE 12. PROBLEM 1. InyourHorseclass, add the virtualkeyword to your method
+        created in Lesson 10. Create a second versionof the same
+        method and add a parameter.Include a Console WriteLine method
+        in the new method that uses the parameter.This parameter needs
+        to be based on one of your properties. */
+
+    // method for exercise 12 with a a parameters
+    public virtual void HorseTrot(string HorseColor)
+    {
+        // the console.writeline
+        Console.WriteLine($"The {HorseColor} horse is trotting");
+    }
+
+
+
+
+} // end class
