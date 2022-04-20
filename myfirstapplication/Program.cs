@@ -35,7 +35,22 @@ that member.
 // ouseUpdate();
 // HorseOutput();
 // BoatOutput();
-Lesson11Out();
+// Lesson11Out();
+Lesson12Out();
+
+
+void Lesson12Out()
+{
+    Fruit myFruit = new Fruit();
+    myFruit.EatFruit();
+    Apple myApple = new Apple();
+    myApple.EatFruit();
+    Condo myCondo = new Condo();
+    myCondo.DoorOpenClose();
+    myCondo.Maintenance();
+    Console.WriteLine(myCondo.DoorColor);
+    Console.WriteLine(myCondo.WindowSize);
+}
 
 
 void Lesson11Out()
