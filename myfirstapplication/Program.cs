@@ -37,7 +37,21 @@ that member.
 // BoatOutput();
 // Lesson11Out();
 // Lesson12Out();
-Lesson13Out();
+// Lesson13Out();
+Lesson14out();
+
+void Lesson14out()
+{
+    Lesson14 myLesson14 = new Lesson14();
+    //myLesson14.SingleHouseArray();
+    //myLesson14.SingleIntArray();
+    //myLesson14.MultiIntArray();
+    //myLesson14.MultiString();
+    // myLesson14.JaggedArraySample();
+    Exercise14 myExercise14 = new Exercise14();
+    myExercise14.IceCreamFlavors();
+    myExercise14.FootballScore();
+}
 
 
 void Lesson13Out()
