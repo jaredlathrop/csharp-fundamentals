@@ -49,6 +49,10 @@ void Lesson13Out()
     Console.WriteLine($"Convereting feet to inches: {total1}");
     Console.WriteLine($"Converting yards to feet: {total2}");
     Console.WriteLine($"Converting miles to yards: {total3}");
+
+    Duck myExercise13 = new Duck(3);
+    myExercise13.Eat();
+    myExercise13.Fly();
 }
 
 void Lesson12Out()
