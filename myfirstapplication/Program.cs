@@ -33,11 +33,23 @@ that member.
 // Lesson9Ex();
 // Lesson10Ex();
 // ouseUpdate();
-HorseOutput();
-BoatOutput();
+// HorseOutput();
+// BoatOutput();
 // Lesson11Out();
 // Lesson12Out();
+Lesson13Out();
 
+
+void Lesson13Out()
+{
+    Lesson13Derived myLesson13 = new Lesson13Derived(3);
+    int total1 = myLesson13.ConvertFeetToInches();
+    int total2 = myLesson13.ConvertYardsToFeet();
+    int total3 = myLesson13.ConvertMilesToYards();
+    Console.WriteLine($"Convereting feet to inches: {total1}");
+    Console.WriteLine($"Converting yards to feet: {total2}");
+    Console.WriteLine($"Converting miles to yards: {total3}");
+}
 
 void Lesson12Out()
 {
