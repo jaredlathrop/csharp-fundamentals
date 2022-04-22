@@ -40,7 +40,17 @@ that member.
 // Lesson13Out();
 // Lesson14out();
 // Lesson15out();
-Lesson16Out();
+// Lesson16Out();
+Lesson17Out();
+
+void Lesson17Out()
+{
+    Lesson17 myLesson17 = new Lesson17();
+    House testHouse = null;
+    // myLesson17.MyThrowExample(testHouse);
+    // myLesson17.MyExceptionExample(testHouse);
+    myLesson17.MyArrayException();
+}
 
 void Lesson16Out()
 {
