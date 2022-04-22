@@ -38,8 +38,20 @@ that member.
 // Lesson11Out();
 // Lesson12Out();
 // Lesson13Out();
-Lesson14out();
+// Lesson14out();
+Lesson15out();
 
+void Lesson15out()
+{
+    Lesson15 myLesson15 = new Lesson15();
+    // myLesson15.EnumExample();
+    string flavor = myLesson15.FavoriteIceCream(IceCream.Chocolate);
+    Console.WriteLine(flavor);
+    myLesson15.TupleEx();
+    (int val1, int val2, int val3) = myLesson15.TupleReturnExample(11, 35);
+    Console.WriteLine($"Answers are {val1}, {val2}, {val3}");
+}
+ 
 void Lesson14out()
 {
     Lesson14 myLesson14 = new Lesson14();
