@@ -39,7 +39,19 @@ that member.
 // Lesson12Out();
 // Lesson13Out();
 // Lesson14out();
-Lesson15out();
+// Lesson15out();
+Lesson16Out();
+
+void Lesson16Out()
+{
+    Lesson16 myLesson16 = new Lesson16();
+    // myLesson16.MyListExample();
+    // myLesson16.MyDictEx();
+
+    Exercise16 myExercise16 = new Exercise16();
+    myExercise16.MyHorse();
+    myExercise16.MovieDict();
+}
 
 void Lesson15out()
 {
@@ -53,7 +65,7 @@ void Lesson15out()
 
     Exercise15 myExercise15 = new Exercise15();
     string movie = myExercise15.MyFavoriteMovies(favoriteMovies.Batman);
-    Console.WriteLine(movie);
+    
 }
  
 void Lesson14out()
