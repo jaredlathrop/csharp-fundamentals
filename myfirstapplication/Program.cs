@@ -50,6 +50,10 @@ void Lesson15out()
     myLesson15.TupleEx();
     (int val1, int val2, int val3) = myLesson15.TupleReturnExample(11, 35);
     Console.WriteLine($"Answers are {val1}, {val2}, {val3}");
+
+    Exercise15 myExercise15 = new Exercise15();
+    string movie = myExercise15.MyFavoriteMovies(favoriteMovies.Batman);
+    Console.WriteLine(movie);
 }
  
 void Lesson14out()
