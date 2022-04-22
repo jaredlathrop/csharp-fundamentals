@@ -49,7 +49,12 @@ void Lesson17Out()
     House testHouse = null;
     // myLesson17.MyThrowExample(testHouse);
     // myLesson17.MyExceptionExample(testHouse);
-    myLesson17.MyArrayException();
+    // myLesson17.MyArrayException();
+
+    Exercise17 myExercise17 = new Exercise17();
+    // myExercise17.Problem1(5, 0);
+    Horse testHorse = null;
+    myExercise17.Problem2(testHorse);
 }
 
 void Lesson16Out()
